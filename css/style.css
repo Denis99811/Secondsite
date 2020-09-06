@@ -1,0 +1,60 @@
+body, html{
+    height: 100%;
+}
+
+.jumbotron{
+    background-image: url("../img/home.jpg");
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.6) inset;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.jumbotron .container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bg-triangle .container{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: white;
+}
+
+.container, .py-6{
+    text-align: center;
+}
+
+.bg-danger {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+.bg-danger .display-5{
+    color: rgb(68, 68, 68);
+}
+
+.py-6{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.py-6 .btn{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.bg-triangle{
+    background-image: url("../img/footer.jpg");
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.6) inset;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
